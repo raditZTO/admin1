@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>elektronik</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Jualan elektronik</h1>
+  </header>
+
+  <main>
+    <section class="product-list">
+      <h2>elektronik</h2>
+      <div class="product" id="product1">
+        <h3>kipas</h3>
+        <p>Harga: Rp 50.000</p>
+        <button onclick="addToCart('kipas mini', 50000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product2">
+        <h3>sound</h3>
+        <p>Harga: Rp 75.000</p>
+        <button onclick="addToCart('sound mini', 75000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>kabel 1Meter</h3>
+        <p>Harga: Rp 1.000</p>
+        <button onclick="addToCart('kabel 1Meter', 1000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product2">
+        <h3>mejikom</h3>
+        <p>Harga: Rp 170.000</p>
+        <button onclick="addToCart('mejikom', 75000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>strika</h3>
+        <p>Harga: Rp 105.000</p>
+        <button onclick="addToCart('strika', 105000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>lampu</h3>
+        <p>Harga: Rp 5.000</p>
+        <button onclick="addToCart('lampu', 5000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>lampu emergency</h3>
+        <p>Harga: Rp 25.000</p>
+        <button onclick="addToCart('lampu emergency', 25000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>saklar mini</h3>
+        <p>Harga: Rp 1.000</p>
+        <button onclick="addToCart('saklar mini', 1000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>saklar biasa</h3>
+        <p>Harga: Rp 10.000</p>
+        <button onclick="addToCart('saklar biasa', 10000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="product" id="product1">
+        <h3>remote apa</h3>
+        <p>Harga: Rp 10-30k</p>
+        <button onclick="addToCart('remote', 10000)">Tambah ke Keranjang</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Keranjang Belanja</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: Rp <span id="total-price">0</span></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubungi via WhatsApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+  </header>
+
+  <main>
+    <p>kalo mau pesan jelas, silakan hubungi kami melalui WhatsApp:</p>
+    <button onclick="openWhatsApp()">Hubungi via WhatsApp</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
